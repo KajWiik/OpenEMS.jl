@@ -1,0 +1,10 @@
+name = "OpenEMS"
+uuid = "339106f3-2234-4f9d-9695-73fbe15532b1"
+version = "0.1.0"
+authors = ["Kaj Wiik <kaj.wiik@iki.fi>"]
+
+[deps]
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+
+[compat]
+PythonCall = "0.9.30"
