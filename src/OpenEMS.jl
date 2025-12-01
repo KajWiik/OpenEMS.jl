@@ -14,6 +14,6 @@ openEMS = pyimport("openEMS")
 export CSXCAD, openEMS
 
 
-# Write your package code here.
+
 
 end
