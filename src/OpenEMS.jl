@@ -1,6 +1,8 @@
 module OpenEMS
 
 using PythonCall, HDF5, JLD2
+import PhysicalConstants.CODATA2018: c_0, ε_0
+import Unitful:ustrip
 
 const CSXCAD = PythonCall.pynew()
 const openEMS = PythonCall.pynew()
