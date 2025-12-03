@@ -1,6 +1,6 @@
 module OpenEMS
 
-using PythonCall, HDF5
+using PythonCall, HDF5, JLD2
 
 const CSXCAD = PythonCall.pynew()
 const openEMS = PythonCall.pynew()
