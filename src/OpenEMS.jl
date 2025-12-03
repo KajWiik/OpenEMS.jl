@@ -15,9 +15,9 @@ function __init__()
     PythonCall.pycopy!(openEMS, pyimport("openEMS"))
 end
 
+include("utils.jl")
+
 export CSXCAD, openEMS
-
-
-
+export kappa, getports, getports_tdr, ports2sNp
 
 end
